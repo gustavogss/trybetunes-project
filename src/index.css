@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+ --green-dark:#023031;
+ --green-medium:#036B52;
+ --green-ligth:#2FC18C;
+}
+
+.login-content {
+width: 70%;
+padding: 15%;
+margin: auto;
+height: 100vh;
+}
+
+.loading {
+  margin-top: 15rem;
+}
+
+.header{ 
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;  
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: var(--green-dark); 
+  color: white;
+}
+
+.user {
+  display: flex;
+  justify-content: center; 
+  border-radius: 1rem;
+  width: 8rem;
+  height: 2rem;
+  background-color: white;
+  color: var(--green-dark);
+}
+
+.categories {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around; 
+  padding-top: 1rem;
+  background-color: var(--green-medium); 
+}
+
+.categories a {
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding:  0 2rem;
+}
+
+.logo {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.title {
+  color: #444955;
+}
+
+.search {
+  width: 50%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 100%;
+  margin-top: 5rem;
+  display: block;  
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 20px solid --green-ligth;
+}
+
+.input-search {
+  margin-right: 1rem;
+}
+
+.card-album { 
+  display: flex; 
+  justify-content: center;
+  width: 15rem;
+  height: 14rem;
+  background-color: rgba(219, 216, 216, 0.973);
+  border-radius: 2px solid var(--green-medium);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card-album a {
+  text-decoration: none;
+}
+
+.collection-name {
+  color: var(--green-dark);
+  margin-top: 1rem;
+
+}
+
+.position-card {
+  margin-top: 2rem;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-music {
+background-color: green;
+}
+
+.error {  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-error {  
+  width: 40%;
+  margin-right: 5rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 12rem;
+  color: var(--green-dark);
+}
+
+.description-error {
+  width: 30%;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--green-dark);
+}
+
+.card-profile {
+  display: flexbox; 
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
